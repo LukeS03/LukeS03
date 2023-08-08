@@ -1,38 +1,138 @@
 body {
-    background-color:#655c54;
+    background-color:#655c54; 
     font-family: 'Ubuntu Mono', monospace;
+    font-size:100%;
 }
+
+/*=======*/
+/*HEADER STYLING*/
+/*=======*/
 
 #headerContainer {
-    text-align: center;
+    font-size:1.5em;
+    text-align:center;
+    background-color:#3C3836;
+    padding:5%;
+    padding-top:2.5%;
+    padding-bottom:1.5%;
+    width:50%;
+    margin:auto;
+    margin-top:1%;
+    margin-bottom:0;
 }
 
-#headerContainer #title {
-    font-size:xx-large;
+#headerContainer #title a {
+    text-decoration:none;
+    font-size:2.5em;
     color:#fbf1c7;
 }
 
+#headerContainer #title #dollarSign {
+    color:#83A598;
+}
+
 #headerContainer nav {
-    font-size:large;
     color:#a89984;
+    font-size:smaller;
 }
 
 #headerContainer a {
     text-decoration:none;
 }
 
-#headerContainer a:link {
+#headerContainer a.inactiveNavItem:link, #headerContainer a.inactiveNavItem:visited {
     color:#B8BB26;
 }
 
-#headerContainer a:visited {
+#headerContainer a.inactiveNavItem:hover {
+    color:#98971A;
+}
+
+a.activeNavItem:link {
+    color:#98971A;
+}
+
+a.activeNavItem:visited {
+    color:#98971A;
+}
+
+/*=======*/
+/*MAIN STYLING*/
+/*=======*/
+
+main {
+    background-color:#3C3836;
+    padding:5%;
+    padding-top:0%;
+    padding-bottom:0%;
+    width:50%;
+    margin:auto;
+    margin-top:0;
+    overflow:hidden;
+}
+
+main hr {
+    border: 1px dashed #504945;
+}
+
+main h1::after, main h1::before {
     color:#B8BB26;
 }
 
-#headerContainer a:hover {
+main h2::after, main h2::before {
     color:#98971A;
 }
 
-#currentPageLink {
-    color:#98971A;
+main h1::before, main h2::before {
+    content:"[ ";
+}
+
+main h1::after, main h2::after {
+    content:" ]";
+}
+
+main h1 {
+    font-size:xx-large;
+    color:#fbf1c7;
+    text-align:center;
+}
+
+main h2 {
+    font-size:x-large;
+    color:#D5C4A1;
+}
+
+main p, main li {
+    color:#BDAE93;
+}
+
+main li {
+    list-style-type:none;
+}
+
+main li::before {
+    content:"> ";
+    color:#83A598;
+}
+
+/*=======*/
+/*FOOTER STYLING*/
+/*=======*/
+
+footer {
+    background-color:#3C3836;
+    padding:5%;
+    padding-top:0%;
+    padding-bottom:1%;
+    width:50%;
+    margin:auto;
+    margin-top:0;
+    overflow:hidden;
+    text-align:center;
+    color:#504945;
+}
+
+footer a:link, footer a:visited, footer a:hover {
+    text-decoration:none;
+    color:#665C54;
 }

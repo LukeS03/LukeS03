@@ -3,16 +3,36 @@
 }
 
 #headerContainer {
+    margin:auto;
+    padding:5%;
     position:absolute;
     transform:translate(-50%, -50%);
     top:50%;
     left:50%;
+    z-index:10;
 }
 
-#headerContainer #title {
-    font-size:96px;
+#headerContainer #title a {
+    font-size:4em;
 }
 
 #headerContainer nav {
     font-size:xx-large;
+}
+
+footer {
+    background-color:#655c54;
+    text-align:center;
+    color:#504945;
+    margin:auto;
+    padding:5%;
+    position:absolute;
+    transform:translate(-50%, -50%);
+    top:80%;
+    left:50%;
+}
+
+footer a:link, footer a:visited, footer a:hover {
+    text-decoration:none;
+    color:#3C3836;
 }
