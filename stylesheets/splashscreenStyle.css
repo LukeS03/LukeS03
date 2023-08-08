@@ -1,0 +1,18 @@
+#header {
+    position:relative;
+}
+
+#headerContainer {
+    position:absolute;
+    transform:translate(-50%, -50%);
+    top:50%;
+    left:50%;
+}
+
+#headerContainer #title {
+    font-size:96px;
+}
+
+#headerContainer nav {
+    font-size:xx-large;
+}
