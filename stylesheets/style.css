@@ -25,11 +25,11 @@ body {
     color:#B8BB26;
 }
 
-#headerContainer a:hover {
-    color:#98971A;
+#headerContainer a:visited {
+    color:#B8BB26;
 }
 
-#headerContainer a:visited {
+#headerContainer a:hover {
     color:#98971A;
 }
 
