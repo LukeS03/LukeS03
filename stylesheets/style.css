@@ -1,10 +1,10 @@
 body {
     background-color:#655c54;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 #headerContainer {
     text-align: center;
-    font-family: 'Ubuntu Mono', monospace;
 }
 
 #headerContainer #title {
@@ -30,5 +30,9 @@ body {
 }
 
 #headerContainer a:visited {
+    color:#98971A;
+}
+
+#currentPageLink {
     color:#98971A;
 }
