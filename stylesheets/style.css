@@ -162,4 +162,12 @@ footer a:link, footer a:visited, footer a:hover {
     footer, main, #headerContainer {
         max-width:75%;
     }
+
+    #headerContainer #title {
+        font-size:xx-large;
+    }
+
+    #headerContainer nav {
+        font-size:larger;
+    }
 }
